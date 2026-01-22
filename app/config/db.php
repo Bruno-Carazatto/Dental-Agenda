@@ -10,7 +10,7 @@ function db(): PDO
     $dbHost = 'localhost';
     $dbName = 'dental_agenda';
     $dbUser = 'root';
-    $dbPass = 'Lohbru@21'; // coloque sua senha do MySQL aqui se tiver
+    $dbPass = ''; // coloque sua senha do MySQL aqui se tiver
 
     $dsn = "mysql:host={$dbHost};dbname={$dbName};charset=utf8mb4";
 
